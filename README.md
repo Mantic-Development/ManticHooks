@@ -1,5 +1,7 @@
 # ManticHooks
 
+[![Build](https://github.com/Mantic-Development/ManticHooks/actions/workflows/build.yml/badge.svg)](https://github.com/Mantic-Development/ManticHooks/actions/workflows/build.yml)
+
 Posts your server's leaderboards to Discord through webhooks.
 
 Runs on Spigot, Paper and forks from **1.8 to the latest release**, on Java 8 or newer.
@@ -13,7 +15,7 @@ Runs on Spigot, Paper and forks from **1.8 to the latest release**, on Java 8 or
 
 ## Install
 
-1. Put [ManticLib](https://github.com/Mantic-Development/ManticLib/releases) and ManticHooks in `plugins/`.
+1. Put [ManticLib](https://github.com/Mantic-Development/ManticLib/releases) and [ManticHooks](https://github.com/Mantic-Development/ManticHooks/releases) in `plugins/`.
 2. For money leaderboards, install [Vault](https://www.spigotmc.org/resources/vault.34315/) and an economy plugin.
    For placeholder leaderboards, install [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) and the expansion you need
    (e.g. `/papi ecloud download Statistic`).

@@ -1,0 +1,8 @@
+name: ManticHooks
+version: '${version}'
+main: dev.mantic.hooks.ManticHooks
+api-version: '1.13'
+description: Posts server leaderboards to Discord webhooks
+website: https://github.com/Mantic-Development/ManticHooks
+depend: [ManticLib]
+softdepend: [Vault, PlaceholderAPI]
